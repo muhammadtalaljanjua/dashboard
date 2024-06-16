@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 30px 40px 30px;
+}
+
+.header h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #101858;
+  font-weight: 500;
+  margin: 0;
+}
+
+.user-logo {
+  display: flex;
+  align-items: center;
+}
+
+.user-logo img {
+  max-width: 25px;
+  margin-right: 0.5rem;
+}
+
+.user-logo span {
+  cursor: pointer;
+}
+.dropdown {
+  margin-left: 5px;
+  width: 12px;
+  cursor: pointer;
+}

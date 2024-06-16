@@ -1,0 +1,31 @@
+tbody .css-hsi95o-MuiTableRow-root {
+  background-color: #ebebeb !important;
+}
+
+.table-container {
+  background-color: white;
+  z-index: 2;
+}
+
+.css-1atu56z-MuiPaper-root,
+.MuiTableContainer-root {
+  box-shadow: none !important;
+}
+
+.btn-add {
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.Mui-TableHeadCell-Content-Actions {
+  display: none !important;
+}
+
+.css-qpxlqp {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  transform: translateX(-50%);
+}
