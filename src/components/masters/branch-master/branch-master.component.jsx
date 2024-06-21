@@ -78,6 +78,9 @@ const BranchMaster = () => {
         maxHeight: "400px",
       },
     },
+    localeText: {
+      noRowsLabel: "Authorizaton Required",
+    },
   });
 
   return (
