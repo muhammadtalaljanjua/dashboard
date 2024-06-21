@@ -1,0 +1,21 @@
+.container-box {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.auth-button {
+  color: #fff;
+  padding: 10px 40px;
+  background: #101858;
+  border-radius: 5px;
+  border: 2px solid #101858;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.auth-button:hover {
+  color: #101858;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #101858;
+}

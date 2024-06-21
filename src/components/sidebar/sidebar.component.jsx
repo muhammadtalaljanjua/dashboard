@@ -1,5 +1,6 @@
 import React from "react";
 import "./sidebar.styles.css";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -12,18 +13,54 @@ const Sidebar = () => {
       </div>
       <nav>
         <ul>
-          <li className="main-item">
+          <li className="design">
             <img src={`${process.env.PUBLIC_URL}/dashboard.png`} alt="Dashboard" className="icon" />
-            Dashboard
+            <NavLink className="main-item" to="/dashboard">
+              Dashboard
+            </NavLink>
           </li>
-          <li className="main-item">
+          <li className="design">
             <img src={`${process.env.PUBLIC_URL}/staff.png`} alt="Staff" className="icon" />
-            Staff Management
+            <NavLink className="main-item" to="/staff-management">
+              Staff Management
+            </NavLink>
           </li>
-          <ul>
-            <li className="sub-item">Staff Listing</li>
-            <li className="sub-item">Staff Document Listing</li>
-          </ul>
+          <li>
+            <NavLink className="sub-item" to="/staff-listing">
+              Staff Listing
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="sub-item" to="/staff-document-listing">
+              Staff Document Listing
+            </NavLink>
+          </li>
+          <li className="design">
+            <img src={`${process.env.PUBLIC_URL}/staff.png`} alt="Staff" className="icon" />
+            <NavLink className="main-item" to="/masters">
+              Masters
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="sub-item" to="/department-master">
+              Department Master
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="sub-item" to="/position-master">
+              Position Master
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="sub-item" to="/branch-master">
+              Branch Master
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="sub-item" to="/bank-master">
+              Bank Master
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>

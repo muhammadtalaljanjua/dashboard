@@ -1,10 +1,10 @@
 import React from "react";
 import "./header.styles.css";
 
-const Header = () => {
+const Header = ({ title }) => {
   return (
     <header className="header">
-      <h1>Staff Document Listing</h1>
+      <h1>{title}</h1>
       <div className="user-logo">
         <img src={`${process.env.PUBLIC_URL}/user.png`} alt="User Logo" />
         <span>Admin</span>

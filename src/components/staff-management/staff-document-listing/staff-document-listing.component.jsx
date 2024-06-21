@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { Box, Button, TableContainer, Paper } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
-import "./main-content.styles.css";
+import "./staff-document-listing.styles.css";
 
 const data = [
   {
@@ -19,7 +19,7 @@ const data = [
   },
 ];
 
-const MainContent = () => {
+const StaffDocumentListing = () => {
   const columns = useMemo(
     () => [
       {
@@ -101,4 +101,4 @@ const MainContent = () => {
   );
 };
 
-export default MainContent;
+export default StaffDocumentListing;

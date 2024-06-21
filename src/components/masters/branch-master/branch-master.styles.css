@@ -1,0 +1,49 @@
+#root
+  > div
+  > div
+  > div
+  > div.MuiTableContainer-root.css-2f3oeb-MuiTableContainer-root
+  > table
+  > tbody {
+  z-index: 5;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.add-button {
+  margin: 0px 30px 30px 0px;
+  color: #fff;
+  padding: 10px 30px;
+  background: #101858;
+  border-radius: 5px;
+  border: 2px solid #101858;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  color: #101858;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #101858;
+}
+
+.css-7sv680-MuiTableRow-root {
+  color: white !important;
+  background-color: #8ebae4 !important;
+}
+
+/* .MuiTableRow-root:nth-of-type(odd) {
+  background-color: #888888 !important;
+} */
+
+.MuiTableRow-root:nth-of-type(even) {
+  background-color: #ddebf7 !important;
+}
+
+/* .table-container {
+  margin: 0px 30px;
+} */
